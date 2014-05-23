@@ -1,0 +1,16 @@
+{
+  "name": "wintersmith-toml",
+  "version": "0.1.0",
+  "author": "Rafael Belvederese <rafael@blvz.im>",
+  "description": "toml plugin for wintersmith",
+  "keywords": ["wintersmith-plugin"],
+  "license": "MIT",
+  "repository": "https://github.com/blvz/wintersmith-toml",
+  "dependencies": {
+    "toml": ">=2.x"
+  },
+
+  "devDependencies": {
+    "wintersmith": "2.x"
+  }
+}

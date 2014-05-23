@@ -1,0 +1,13 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title
+      = page.title
+  body
+    div.frame
+      h1 Meet TOML
+      p TOML was created by:
+      h3 #{page.metadata.owner.name} @ #{page.metadata.owner.organization}
+      caption= page.metadata.owner.bio
+      p Born in #{page.metadata.owner.dob}
